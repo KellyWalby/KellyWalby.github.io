@@ -26,9 +26,9 @@
    
 <?php
 if (isset($_GET['submit'])){
-    $result1 = $_GET['num1']
-    $result1 = $_GET['num2']
-    $operator = $_GET['Operator']
+    $result1 = $_GET['num1'];
+    $result2 = $_GET['num2'];
+    $operator = $_GET['Operator'];
     switch ($operator){
         case "None":
             echo "Please select an operator.";
