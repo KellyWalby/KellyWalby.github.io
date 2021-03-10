@@ -8,7 +8,7 @@
  
 <form>
     <input type="text" name = "num1" placeholder="Enter a number">
-    <select name="Operator">
+    <select name="operator">
         <option>None</option>
         <option>Plus</option>
         <option>Minus</option>
@@ -27,7 +27,7 @@
 if (isset($_GET['submit'])){
     $result1 = $_GET['num1'];
     $result2 = $_GET['num2'];
-    $operator = $_GET['Operator'];
+    $operator = $_GET['operator'];
     switch ($operator){
         case "None":
             echo "Please select an operator.";
